@@ -1,0 +1,104 @@
+/* Header */
+
+header{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          height: 80px;
+}
+
+header div{
+          margin-right: 20px;
+}
+
+a, a:hover, a:visited, a:active {
+          color: #2F4F4F;
+          text-decoration: none;
+          font-family: arial,sans-serif;
+}
+
+#boutondroit{
+          background-color: #4285F4;
+          color: white;
+          padding: 10px;
+          border-radius: 4px;
+          width: 100px;
+}
+
+/* Centre */
+
+#centre{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+#contourLoupe{
+          height: 40px;
+          border-radius: 20px;
+          border: solid 1px #D3D3D3;
+          display: flex;
+          align-items: center;
+
+}
+
+#picto2{
+          color: #D3D3D3;
+          margin-left: 10px;
+          /*box-shadow: 1px 1px 12px #555;*/
+}
+
+.boutoncentre{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+}
+
+.bouton{
+          background-color: #EAEBED;
+          display: flex;
+          padding: 10px;
+          border-radius: 4px;
+          margin: 10px;
+}
+
+/* Footer */
+
+footer{
+          display: flex;
+          flex-direction: column;
+          background-color: #EAEBED;
+          font-size: 15px;
+}
+
+footer div{
+          margin: 10px;
+}
+
+.basse1{
+          display: flex
+          justify-content: flex-start;
+          align-items: center
+          width: 600px;
+
+}
+
+.basse2{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+}
+
+h6{
+          color: #2F4F4F;
+          font-size: 15px;
+          font-family: arial,sans-serif;
+
+_______________________________________________________
+
+
+/*
+JS Mouseover pour recherche centre
+box-shadow: 1px 1px 12px #555;
+*/
